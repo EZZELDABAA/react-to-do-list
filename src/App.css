@@ -1,0 +1,32 @@
+.app{
+    border: 2px solid;
+    margin: 100px auto ;
+    padding: 20px 15px;
+    width: 200px;
+}
+.to-do-container{
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: break-word;
+}
+.to-do-container ul li{
+   cursor: pointer;
+    list-style-type: "✌️";
+}
+button{
+    margin-top: 10px;
+    width: 50px;
+    color: white;
+    
+   background-color: blueviolet;
+}
+.done{
+    text-decoration: line-through;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+.trash{
+    cursor: pointer;
+}
